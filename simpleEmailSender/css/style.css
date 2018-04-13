@@ -1,0 +1,67 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+}
+
+*, *:before, *:after{
+	box-sizing: border-box;
+}
+
+.form-box{
+	margin: 30px;
+	padding: 1px;
+	width: 300px;
+	background: #03A9F4;
+	text-align: center;
+	border-radius: 5px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	border-bottom: 1px solid #0288D1;
+}
+
+.form-box #title {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color: #fff;
+	font-family: 'Nunito', sans-serif;
+	font-size: 25px;
+}
+
+.form-box input,
+.form-box button{
+	outline: none;
+}
+
+.form-box input[type="text"]{
+	width: 250px;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 2px;
+	margin-bottom: 10px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 13px;
+}
+
+.form-box #message{
+	width: 250px;
+	padding: 5px 10px;
+	border-radius: 2px;
+	margin-bottom: 25px;
+	border: none;
+	outline: none;
+	font-family: 'Nunito', sans-serif;
+	font-size: 13px;
+}
+
+.form-box .form-btn{
+	cursor: pointer;
+	border: none;
+	margin-bottom: 25px;
+	padding: 10px 30px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px;
+	color: #fff;
+	background: #8BC34A;
+	border-radius: 2px;
+	border-bottom: 1px solid #388E3C;
+}

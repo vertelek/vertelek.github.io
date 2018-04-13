@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>form</title>
+	<link href="https://fonts.googleapis.com/css?family=Nunito:400,700|Open+Sans+Condensed:300" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="form-box">
+		<p id="title"><span>Send</span> a message</p>
+		<form action="mail.php" method="POST">
+			<input type="hidden" name="something" value="Главная форма">
+			<input id="username" type="text" name="username" placeholder="Your Name">
+			<input id="useremail" type="text" name="useremail" placeholder="Your Email">
+			<textarea id="message" name="usermessage" rows="5" placeholder="Your Message"></textarea>
+			<button class="form-btn" type="submit">Send Message</button>
+		</form>
+	</div>
+	<p></p>
+</body>
+</html>
