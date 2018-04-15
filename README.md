@@ -2,7 +2,7 @@
 
 # Vitalii Andrusiak
 
-### List of websites
+### List of mockup websites
 
 + [Piroll](https://vertelek.github.io/Piroll/)
 + [Gold_one](https://vertelek.github.io/gold_one/)
